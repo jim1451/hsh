@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SearchResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout3"-->
+        <!--android:layout_width="match_parent"-->
+
+        <!--android:layout_height="75dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:background="#000"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/linearLayout4"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--<ImageView-->
+
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:onClick="click"-->
+            <!--android:background="@mipmap/black"-->
+            <!--/>-->
+
+        <!--<View-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"></View>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView3"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.9"-->
+            <!--android:gravity="center"-->
+            <!--android:text="消息"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="19sp" />-->
+
+        <!--<View-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"></View>-->
+
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/imageView_daohang"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="35dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="31dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:srcCompat="@mipmap/daohang" />&ndash;&gt;-->
+
+    <!--</LinearLayout>-->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="bottom"
+            android:background="#444">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="25dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="6dp"
+                android:background="@mipmap/whiteback"
+                android:onClick="click" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:textColor="#fff"
+                android:textSize="19sp"
+                android:text="返回" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"></View>
+            <!--android:layout_gravity="center"-->
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:layout_marginBottom="6dp"
+                android:text="消息"
+                android:textColor="#fff"
+                android:textSize="19sp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"></View>
+
+            <!--<ImageView-->
+            <!--android:id="@+id/imageView_daohang"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="31dp"-->
+            <!--android:layout_marginBottom="9dp"-->
+            <!--app:srcCompat="@mipmap/daohang" />-->
+
+        </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

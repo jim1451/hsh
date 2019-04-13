@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SiteManagement">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="65dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:gravity="bottom"-->
+            <!--android:background="#000000">-->
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView3"-->
+                <!--android:layout_width="35dp"-->
+                <!--android:layout_height="41dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:onClick="click"-->
+                <!--android:background="@mipmap/black" />-->
+
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+
+                <!--android:text="返回"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textSize="19sp" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_weight="1">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textSize="19sp"-->
+                    <!--android:text="添加场所"/>-->
+            <!--</LinearLayout>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:id="@+id/textView_comfirm"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textSize="19sp"-->
+               <!--android:onClick="myClick"-->
+                <!--android:text="联系人" />-->
+        <!--</LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="bottom"
+            android:background="#444">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="25dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="6dp"
+                android:background="@mipmap/whiteback"
+                android:onClick="click" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:textColor="#fff"
+                android:textSize="19sp"
+                android:text="返回" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"></View>
+            <!--android:layout_gravity="center"-->
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:layout_marginBottom="6dp"
+                android:text="添加设备"
+                android:textColor="#fff"
+                android:textSize="19sp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"></View>
+
+            <!--<ImageView-->
+            <!--android:id="@+id/imageView_daohang"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="31dp"-->
+            <!--android:layout_marginBottom="9dp"-->
+            <!--app:srcCompat="@mipmap/daohang" />-->
+
+
+            <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_comfirm"
+                android:layout_marginBottom="6dp"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:onClick="myClick"
+            android:text="联系人" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="  杭州市海智中心3栋4...."
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="                故障"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="  区域"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" 杭州市海智中心3栋4...."
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="  详细地址"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" 杭州市海智中心3栋4栋5层"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#cccccc"></View>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:orientation="horizontal">-->
+
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="  负责人："
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="  小李"
+                android:textSize="19sp" />
+
+
+            <View
+                android:layout_width="175dp"
+                android:layout_height="match_parent"></View>
+
+            <ImageView
+                android:id="@+id/question"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+
+
+                android:background="@mipmap/sitephoto" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="  手机号："
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="  13859594646"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#cccccc"></View>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

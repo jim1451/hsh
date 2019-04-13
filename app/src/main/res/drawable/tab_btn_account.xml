@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--  <item android:drawable="@mipmap/home_account_btn_p" android:state_selected="true"/>
+    <item android:drawable="@mipmap/home_account_btn_p" android:state_focused="true"/>
+    <item android:drawable="@mipmap/home_account_btn_n"/>-->
+
+    <!--<item android:drawable="@mipmap/first" android:state_selected="true"/>-->
+    <!--<item android:drawable="@mipmap/first" android:state_focused="true"/>-->
+    <!--<item android:drawable="@mipmap/first1"/>-->
+
+  <item android:drawable="@mipmap/device1" android:state_selected="true"/>
+  <item android:drawable="@mipmap/device1" android:state_focused="true"/>
+  <item android:drawable="@mipmap/device"/>
+
+
+</selector>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AdddevicedetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="65dp"-->
+
+            <!--android:background="#444">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView4"-->
+                <!--android:layout_width="25dp"-->
+                <!--android:layout_height="35dp"-->
+               <!--android:layout_gravity="bottom"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:background="@mipmap/whiteback"-->
+                <!--android:onClick="myclick" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textSize="19sp"-->
+                <!--android:text="返回"/>-->
+
+            <!--<View-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="match_parent"></View>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView3"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="0.9"-->
+                <!--android:layout_gravity="bottom"-->
+                <!--android:text="设备管理"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textSize="19sp" />-->
+            <!--<View-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="match_parent"></View>-->
+
+        <!--</LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="bottom"
+            android:background="#444">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="25dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="6dp"
+                android:background="@mipmap/whiteback"
+                android:onClick="myclick" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:textColor="#fff"
+                android:textSize="19sp"
+                android:text="返回" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"></View>
+            <!--android:layout_gravity="center"-->
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:layout_marginBottom="6dp"
+                android:text="添加设备"
+                android:textColor="#fff"
+                android:textSize="19sp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"></View>
+
+            <!--<ImageView-->
+            <!--android:id="@+id/imageView_daohang"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="31dp"-->
+            <!--android:layout_marginBottom="9dp"-->
+            <!--app:srcCompat="@mipmap/daohang" />-->
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="设备编号：" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/device_id"
+                    android:layout_marginLeft="12dp"
+                    android:text="344633AA097777" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="设备名称：" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/device_name"
+                    android:layout_marginLeft="12dp"
+                    android:text="独立式烟感探测器" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="安装位置：" />
+
+                <EditText
+                    android:id="@+id/device_place"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+
+                    android:theme="@style/MyEditText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="所属场地：" />
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="12dp"-->
+                    <!--android:id="@+id/device_place1"-->
+                    <!--android:text="杭州市余杭区海智园3栋4楼" />-->
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="265dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="260dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="235dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/login"
+                android:onClick="click"
+                android:text="提交"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="368dp" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

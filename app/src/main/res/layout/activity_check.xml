@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white1"
+    tools:context=".activity.CheckActivity">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:gravity="bottom"
+            android:background="@color/myblack">
+
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:background="@mipmap/whiteback"
+                android:onClick="myclick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:textColor="#fff"
+                android:textSize="19sp"
+                android:text="返回" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"></View>
+            <!--android:layout_gravity="center"-->
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:layout_marginBottom="6dp"
+                android:text="火警处理"
+                android:textColor="#fff"
+                android:textSize="19sp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"></View>
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView_daohang"-->
+                <!--android:layout_width="35dp"-->
+                <!--android:layout_height="31dp"-->
+                <!--android:layout_marginBottom="9dp"-->
+                <!--app:srcCompat="@mipmap/daohang" />-->
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_place"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+               android:layout_marginLeft="5dp"
+                android:gravity="left|center"
+                android:text="场所的名称：杭州市海智园1栋3楼"
+                android:textSize="19sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/myblack"></View>
+
+            <TextView
+                android:id="@+id/tv_sitename"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:text="设备的名称：独立烟感报警探测器"
+                android:textSize="19sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/myblack"></View>
+
+            <TextView
+                android:id="@+id/tv_sitepalce"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="安装位置：墙上"
+                android:gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:textSize="19sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/myblack"></View>
+
+            <TextView
+                android:id="@+id/tv_temp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="CPU温度：41°C "
+                android:gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:textSize="19sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/myblack"></View>
+
+            <TextView
+                android:id="@+id/tv_smoke"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="烟雾浓度：599db/m "
+                android:gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:textSize="19sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/myblack"></View>
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="警情类型：火警"
+                android:gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:textSize="19sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/myblack"></View>
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="火警发生时间：2018-12-03"
+                android:gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:textSize="19sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/myblack"></View>
+        </LinearLayout>
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/bt_typetest"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_btn_click_bg"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:text="火警测试"/>
+        <!--<Button-->
+            <!--android:id="@+id/bt_typetest1"-->
+            <!--android:layout_width="310dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:visibility="gone"-->
+            <!--android:background="@drawable/selector_btn_click_bg"-->
+            <!--android:textColor="@drawable/selector_btn_click_text_color"-->
+            <!--android:text="火警测试"/>-->
+
+
+        <Button
+            android:id="@+id/bt_typeerror"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_btn_click_bg"
+            android:textColor="@drawable/selector_btn_click_text_color"
+
+            android:text="火警误报"
+            />
+        <Button
+            android:id="@+id/bt_typereal"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_btn_click_bg"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:text="真实火警" />
+
+
+
+
+
+
+
+
+        <!--<Button-->
+            <!--android:id="@+id/bt_typetest"-->
+            <!--android:layout_width="310dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="#4e69ff"-->
+            <!--android:textColor="#fff"-->
+            <!--android:text="火警测试"/>-->
+        <!--<Button-->
+            <!--android:id="@+id/bt_typetest1"-->
+            <!--android:layout_width="310dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:visibility="gone"-->
+            <!--android:background="@drawable/white1"-->
+            <!--android:textColor="#4e69ff"-->
+            <!--android:text="火警测试"/>-->
+
+
+            <!--<Button-->
+                <!--android:id="@+id/bt_typeerror"-->
+                <!--android:layout_width="310dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:background="@drawable/white1"-->
+                <!--android:textColor="#4e69ff"-->
+                <!--android:text="火警误报"-->
+                <!--/>-->
+        <!--<Button-->
+            <!--android:id="@+id/bt_typeerror1"-->
+            <!--android:layout_width="310dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_gravity="center"-->
+
+
+            <!--android:background="#4e69ff"-->
+            <!--android:textColor="#fff"-->
+            <!--android:text="火警误报"-->
+            <!--/>-->
+
+
+
+
+
+
+
+
+        <!--<Button-->
+            <!--android:id="@+id/bt_typereal"-->
+            <!--android:layout_width="310dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@drawable/white1"-->
+            <!--android:textColor="#4e69ff"-->
+            <!--android:text="真实火警" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/bt_typereal1"-->
+            <!--android:layout_width="310dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_gravity="center"-->
+
+
+            <!--android:background="#4e69ff"-->
+            <!--android:textColor="#fff"-->
+            <!--android:text="真实火警" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_btn_click_bg"
+                android:textColor="@drawable/selector_btn_click_text_color"
+                android:onClick="click1"
+                android:text="稍后处理"
+                />
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"></View>
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_btn_click_bg"
+                android:textColor="@drawable/selector_btn_click_text_color"
+                android:onClick="click"
+                android:text="确认"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/item"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="场所区域"
+            android:textColor="#333333"
+            android:textSize="15sp"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_time"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:text="每日送金币"-->
+            <!--android:textColor="#999999"-->
+            <!--android:textSize="13sp"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/tv_title"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="6dp"-->
+            <!--android:text="金币为0时,送30金币,每天送两次"-->
+            <!--android:textColor="#999999"-->
+            <!--android:textSize="13sp"/>-->
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

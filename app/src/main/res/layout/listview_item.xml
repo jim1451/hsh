@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:id="@+id/ll"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="11dp"
+            android:background="@mipmap/redlinght"/>   //light
+
+     <!--   light-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:layout_marginLeft="11dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/listview_item_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="19sp"
+                android:text="测试四海带花掉"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:id="@+id/listview_item_tv1"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:text="测试四海带花掉"
+                android:textColor="@android:color/black"
+                />
+
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.25"-->
+            <!--android:gravity="right"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:id="@+id/textView_js"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+
+                <!--android:layout_marginRight="13dp"-->
+
+                <!--android:text="自建"-->
+                <!--android:background="#6699ff"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+    <View
+        android:layout_height="0.3dp"
+        android:layout_width="match_parent"
+        android:background="#cccccc"></View>
+</LinearLayout>

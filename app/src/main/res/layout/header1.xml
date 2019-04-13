@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="320dp"
+    android:id="@+id/ll_header"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#6699ff">
+
+    <!--android:background="#6699ff"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#00000000">
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/btn_menu"-->
+                <!--android:layout_width="35dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_alignParentRight="true"-->
+
+                <!--android:text="+"-->
+                <!--android:textSize="35sp" />-->
+
+
+            <ImageView
+                android:id="@+id/btn_menu"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+
+
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="0dp"
+                android:background="@mipmap/homeadd" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/question"-->
+                <!--android:layout_width="30dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_marginLeft="11dp"-->
+                <!--android:background="@mipmap/question" />-->
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="141dp"
+                android:layout_marginLeft="141dp"
+                android:layout_marginBottom="2dp"
+                android:text="海盛海智联"
+                android:textColor="#fff"
+                android:textSize="21sp" />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+<!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="175dp"-->
+    <!--android:gravity="center"-->
+    <!--android:background="@mipmap/mainblack">-->
+    <!--<ImageView-->
+        <!--android:layout_width="175dp"-->
+        <!--android:layout_height="175dp"-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:background="@mipmap/normal"-->
+        <!--android:scaleType="fitXY"-->
+        <!--/>-->
+<!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/header1"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+    <!--android:background="@mipmap/header"-->
+    <!--android:background="@mipmap/normal4"-->
+</LinearLayout>

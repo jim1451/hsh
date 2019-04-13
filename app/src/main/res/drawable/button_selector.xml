@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<item android:drawable="@drawable/normal" android:state_pressed="false"/>-->
+    <!--<item android:drawable="@drawable/pressed" android:state_pressed="true"/>-->
+
+<!--</selector>-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+        <item android:state_pressed="true">
+               <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="rectangle">
+                 <!-- 圆角深红色按钮 -->
+                <solid android:color="#3333cc"/>
+              <corners android:radius="8dip"/>
+             </shape>
+         </item>
+
+        <item android:state_pressed="false">
+         <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <!-- 圆角红色按钮 -->
+            <solid android:color="#fff"/>
+           <corners android:radius="8dip"/>
+          </shape>
+         </item>
+
+</selector>
+

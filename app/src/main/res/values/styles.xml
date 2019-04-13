@@ -1,0 +1,367 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="TopView">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="TopView1">
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+    <style name="TopView.Title" parent="@style/TopView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@drawable/button_backward_selector</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="TopView.Button" parent="@style/TopView">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:background">@drawable/button_backward_selector</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="cb_style">
+        <!--波纹的颜色-->
+        <item name="android:colorControlHighlight" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <!--选中的颜色-->
+        <item name="colorAccent">#000</item>
+
+        
+    </style>
+
+   <!-- <style name="Text.Tab_Button" parent="@style/TopView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@drawable/tab_text_color</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+    </style>-->
+
+    <style name="Text.Tab_Button" parent="@style/TopView">
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@drawable/tab_text_color</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:background">@null</item>
+
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="Text.Tab_Button1" parent="@style/TopView">
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@drawable/tab_text_color1</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:background">@null</item>
+
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="Text.Tab_Button2" parent="@style/TopView">
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@drawable/tab_text_color2</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:background">@null</item>
+
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="Text.Tab_Button3" parent="@style/TopView">
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@drawable/tab_text_color3</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:background">@null</item>
+
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="Text.ButtonStyle" parent="@style/TopView">
+        <item name="android:textSize">11sp</item>
+
+        <item name="android:textColor">@drawable/tab_text_color3</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:background">@null</item>
+
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+
+    <!--  <item name="android:ellipsize">marquee</item>-->
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimAmount">0.7</item> //就是用来控制灰度的值，当为1时，界面除了我们的dialog内容是高亮显示的，dialog以外的区域是黑色的，完全看不到其他内容
+    </style>
+
+
+    <style name="custom_bottom_dialog" parent="@android:style/Theme.Dialog">
+        <!--Dialog的windowFrame框为无-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否显示title-->
+        <item name="android:windowNoTitle">true</item>
+
+        //设置dialog的背景
+
+        <item name="android:background">@android:color/transparent</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--是否有覆盖-->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!--dialog的背景是否昏暗-->
+        <!--窗口背景色-->        <item name="android:windowBackground">@android:color/transparent</item>
+
+        //显示区域背景是否透明
+
+
+        <item name="android:backgroundDimAmount">0.5</item>
+
+
+    </style>
+
+
+    <style name="MyDialog">
+        <!-- alertDialog窗口背景色 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--dialog是否有边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--dialog是否有标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--是否有遮盖(eg.Activity的闪屏页)-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--进出动画-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!--背景是否模糊显示-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <style name="dialog1" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+
+    <style name="MyDialog1" parent="android:Theme.Dialog">
+        <!-- 背景颜色及透明程度 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 是否没有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否背景模糊 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 设置背景模糊的透明度-->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/line</item>
+    </style>
+
+
+    <style name="Transparent">
+    　　
+    　　<item name="android:windowBackground">@color/transparent</item>
+    　　
+    　　<item name="android:windowIsTranslucent">true</item>
+
+   　</style>
+
+
+
+    <style
+        name="Theme.Transparent" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+    <style name="TestBtn" parent="MatchWrap">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textSize_14</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_btn_orange</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <!--<item name="colorControlNormal">@android:color/darker_gray</item>-->
+        <item name="colorControlNormal">#444</item>
+        <!--<item name="colorControlActivated">@android:color/holo_orange_dark</item>-->
+        <!--<item name="colorControlActivated">@android:color/darker_gray</item>-->
+        <item name="colorControlActivated">#444</item>
+    </style>
+
+
+
+    <!--<style name="Theme_Transparent" parent="@android:Theme.DeviceDefault.Light.Dialog">       -->
+        <!--<item name="android:windowIsTranslucent">true</item>      -->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>      -->
+        <!--<item name="android:windowContentOverlay">@null</item>        -->
+        <!--<item name="android:windowNoTitle">true</item>   -->
+    <!--</style>-->
+
+
+
+    <style name="Theme.AppCompat.Light.NoActionBar1" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+
+    <!--<style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="colorPrimary">@color/bar_grey</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="colorPrimaryDark">@color/bar_grey</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="colorAccent">@color/bar_grey</item>&ndash;&gt;-->
+    <!--</style>-->
+
+
+
+
+
+    <!--<style name="picture.default.style" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--&lt;!&ndash;标题栏背景色&ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/bar_grey</item>-->
+        <!--&lt;!&ndash;状态栏背景色&ndash;&gt;-->
+        <!--<item name="colorPrimaryDark">@color/bar_grey</item>-->
+        <!--&lt;!&ndash;是否改变图片列表界面状态栏字体颜色为黑色&ndash;&gt;-->
+        <!--<item name="picture.statusFontColor">false</item>-->
+        <!--&lt;!&ndash;返回键图标&ndash;&gt;-->
+        <!--<item name="picture.leftBack.icon">@drawable/picture_back</item>-->
+        <!--&lt;!&ndash;标题下拉箭头&ndash;&gt;-->
+        <!--<item name="picture.arrow_down.icon">@drawable/arrow_down</item>-->
+        <!--&lt;!&ndash;标题上拉箭头&ndash;&gt;-->
+        <!--<item name="picture.arrow_up.icon">@drawable/arrow_up</item>-->
+        <!--&lt;!&ndash;标题文字颜色&ndash;&gt;-->
+        <!--<item name="picture.title.textColor">@color/white</item>-->
+        <!--&lt;!&ndash;标题栏右边文字&ndash;&gt;-->
+        <!--<item name="picture.right.textColor">@color/white</item>-->
+        <!--&lt;!&ndash;图片列表勾选样式&ndash;&gt;-->
+        <!--<item name="picture.checked.style">@drawable/picture_checkbox_selector</item>-->
+        <!--&lt;!&ndash;开启图片列表勾选数字模式&ndash;&gt;-->
+        <!--<item name="picture.style.checkNumMode">false</item>-->
+        <!--&lt;!&ndash;选择图片样式0/9&ndash;&gt;-->
+        <!--<item name="picture.style.numComplete">false</item>-->
+        <!--&lt;!&ndash;图片列表底部背景色&ndash;&gt;-->
+        <!--<item name="picture.bottom.bg">@color/color_fa</item>-->
+        <!--&lt;!&ndash;图片列表预览文字颜色&ndash;&gt;-->
+        <!--<item name="picture.preview.textColor">@color/picture_list_text_color</item>-->
+        <!--&lt;!&ndash;图片列表已完成文字颜色&ndash;&gt;-->
+        <!--<item name="picture.complete.textColor">@color/picture_list_text_color</item>-->
+        <!--&lt;!&ndash;图片已选数量圆点背景色&ndash;&gt;-->
+        <!--<item name="picture.num.style">@drawable/num_oval</item>-->
+        <!--&lt;!&ndash;预览界面标题文字颜色&ndash;&gt;-->
+        <!--<item name="picture.ac_preview.title.textColor">@color/white</item>-->
+        <!--&lt;!&ndash;预览界面已完成文字颜色&ndash;&gt;-->
+        <!--<item name="picture.ac_preview.complete.textColor">@color/picture_preview_text_color</item>-->
+        <!--&lt;!&ndash;预览界面标题栏背景色&ndash;&gt;-->
+        <!--<item name="picture.ac_preview.title.bg">@color/bar_grey</item>-->
+        <!--&lt;!&ndash;预览界面底部背景色&ndash;&gt;-->
+        <!--<item name="picture.ac_preview.bottom.bg">@color/bar_grey_90</item>-->
+        <!--&lt;!&ndash;预览界面返回箭头&ndash;&gt;-->
+        <!--<item name="picture.preview.leftBack.icon">@drawable/picture_back</item>-->
+        <!--&lt;!&ndash;裁剪页面标题背景色&ndash;&gt;-->
+        <!--<item name="picture.crop.toolbar.bg">@color/bar_grey</item>-->
+        <!--&lt;!&ndash;裁剪页面状态栏颜色&ndash;&gt;-->
+        <!--<item name="picture.crop.status.color">@color/bar_grey</item>-->
+        <!--&lt;!&ndash;裁剪页面标题文字颜色&ndash;&gt;-->
+        <!--<item name="picture.crop.title.color">@color/white</item>-->
+        <!--&lt;!&ndash;相册文件夹列表选中图标&ndash;&gt;-->
+        <!--<item name="picture.folder_checked_dot">@drawable/orange_oval</item>-->
+    <!--</style>-->
+
+
+
+
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+</resources>

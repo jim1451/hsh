@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:orientation="horizontal">
+
+
+        <!--<ImageView-->
+        <!--android:layout_width="41dp"-->
+        <!--android:layout_height="41dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@mipmap/light"/>-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/re_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="测试四海带花掉"
+                    android:layout_marginLeft="9dp"
+                    android:textColor="@android:color/black"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"></View>
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/submit"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+
+                    android:text="提交"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/cb_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:theme="@style/MyEditText"
+                android:text="接受火警电话" />
+            <CheckBox
+                android:id="@+id/cb_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:theme="@style/MyEditText"
+                android:text="接受短息通知" />
+            </LinearLayout>
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+
+                <!--<EditText-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="9dp"-->
+                    <!--android:text="请输入验证码"/>-->
+
+                <!--<com.silence.commonframe.utils.TimeButton-->
+                    <!--android:layout_width="85dp"-->
+                    <!--android:layout_height="33dp"-->
+                    <!--android:id="@+id/btn_identifying"-->
+                    <!--android:background="@mipmap/blue1"-->
+
+
+                    <!--android:textColor="#ffffff"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="获取验证码"/>-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/button3"-->
+                    <!--android:layout_width="95dp"-->
+                    <!--android:layout_height="33dp"-->
+                    <!--android:background="@mipmap/blue1"-->
+                    <!--android:textColor="#ffffff"-->
+                    <!--android:layout_marginLeft="65dp"-->
+                    <!--android:text="提交" />-->
+
+
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.25"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:id="@+id/textView_js"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="自建"-->
+                <!--android:background="#6666FF"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.25"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+
+              <!--android:background="@mipmap/right"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+</FrameLayout>

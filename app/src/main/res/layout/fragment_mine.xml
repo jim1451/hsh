@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/myblue"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#00000000">
+
+
+            <ImageView
+                android:id="@+id/btn_menu"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="12dp"
+
+                android:layout_marginBottom="3dp"
+                android:background="@mipmap/setup" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="#fff"
+                android:textSize="19sp"
+                android:text="我的" />//exacamation
+
+            <!--<ImageView-->
+            <!--android:id="@+id/question"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="@mipmap/exacamation" />-->
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center">
+
+                <!--<ImageView-->
+                <!--android:id="@+id/imageView2"-->
+                <!--android:layout_width="55dp"-->
+                <!--android:layout_height="55dp"-->
+
+                <!--android:background="@mipmap/black" />-->
+
+                <!--<com.silence.commonframe.utils.CircleImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:scaleType="centerCrop"-->
+                   <!---->
+                    <!--android:src="@mipmap/people" />-->
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+
+                    android:src="@mipmap/people3"
+
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#FFF"
+                />
+
+
+
+
+                <LinearLayout
+                    android:layout_width="125dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:id="@+id/name"
+                        android:textColor="#fff"
+                        android:text="小李" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:textColor="#fff"
+                        android:id="@+id/tel"
+                        android:text="15878784949" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/rl">
+
+            <ImageView
+                android:id="@+id/imageview_house"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="38dp"
+                android:layout_marginLeft="38dp"
+                android:background="@mipmap/placemansge" />
+
+            <TextView
+                android:id="@+id/tv_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageview_house"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="1dp"
+                android:layout_toEndOf="@+id/imageview_house"
+                android:layout_toRightOf="@+id/imageview_house"
+                android:textSize="19sp"
+                android:text="场所管理" />
+
+            <ImageView
+                android:id="@+id/imageView_right"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignTop="@+id/imageview_house"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@mipmap/right" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"></View>
+
+
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:id="@+id/rl1">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageview_house1"-->
+                <!--android:layout_width="25dp"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginStart="38dp"-->
+                <!--android:layout_marginLeft="38dp"-->
+                <!--android:background="@mipmap/device_mine" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_place1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignBottom="@+id/imageview_house1"-->
+                <!--android:layout_marginStart="10dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginBottom="1dp"-->
+                <!--android:layout_toEndOf="@+id/imageview_house1"-->
+                <!--android:layout_toRightOf="@+id/imageview_house1"-->
+                <!--android:textSize="19sp"-->
+                <!--android:text="设备管理" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView_right1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_alignTop="@+id/imageview_house1"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginEnd="28dp"-->
+                <!--android:layout_marginRight="28dp"-->
+                <!--android:background="@mipmap/right" />-->
+        <!--</RelativeLayout>-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#cccccc"></View>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:id="@+id/rl_history">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageview_house2"-->
+                <!--android:layout_width="25dp"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginStart="38dp"-->
+                <!--android:layout_marginLeft="38dp"-->
+                <!--android:background="@mipmap/history" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_place2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignBottom="@+id/imageview_house2"-->
+                <!--android:layout_marginStart="10dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginBottom="1dp"-->
+                <!--android:layout_toEndOf="@+id/imageview_house2"-->
+                <!--android:layout_toRightOf="@+id/imageview_house2"-->
+                <!--android:textSize="19sp"-->
+                <!--android:text="火警通知" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView_right2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_alignTop="@+id/imageview_house2"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginEnd="28dp"-->
+                <!--android:layout_marginRight="28dp"-->
+                <!--android:background="@mipmap/right" />-->
+        <!--</RelativeLayout>-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#cccccc"></View>-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/rl_fire">
+
+            <ImageView
+                android:id="@+id/imageview_house4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="38dp"
+                android:layout_marginLeft="38dp"
+                android:background="@mipmap/fire" />
+
+            <TextView
+                android:id="@+id/tv_place4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageview_house4"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="1dp"
+                android:layout_toEndOf="@+id/imageview_house4"
+                android:layout_toRightOf="@+id/imageview_house4"
+                android:textSize="19sp"
+                android:text="火警通知" />
+
+            <ImageView
+                android:id="@+id/imageView_right4"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignTop="@+id/imageview_house4"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@mipmap/right" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"></View>
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:id="@+id/ll_tuisong">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageview_house5"-->
+                <!--android:layout_width="25dp"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginStart="38dp"-->
+                <!--android:layout_marginLeft="38dp"-->
+                <!--android:background="@mipmap/tuisong" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_place5"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignBottom="@+id/imageview_house5"-->
+                <!--android:layout_marginStart="10dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginBottom="1dp"-->
+                <!--android:layout_toEndOf="@+id/imageview_house5"-->
+                <!--android:layout_toRightOf="@+id/imageview_house5"-->
+                <!--android:textSize="19sp"-->
+                <!--android:text="推送管理" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView_right5"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_alignTop="@+id/imageview_house5"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginEnd="28dp"-->
+                <!--android:layout_marginRight="28dp"-->
+                <!--android:background="@mipmap/right" />-->
+        <!--</RelativeLayout>-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#cccccc"></View>-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/rl_qusstion">
+
+            <ImageView
+                android:id="@+id/imageview_house6"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="38dp"
+                android:layout_marginLeft="38dp"
+                android:background="@mipmap/question1" />
+
+            <TextView
+                android:id="@+id/tv_place6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageview_house6"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="1dp"
+                android:layout_toEndOf="@+id/imageview_house6"
+                android:layout_toRightOf="@+id/imageview_house6"
+                android:textSize="19sp"
+                android:text="常见问题" />
+
+            <ImageView
+                android:id="@+id/imageView_right6"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignTop="@+id/imageview_house6"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@mipmap/right" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/customer">
+
+            <ImageView
+                android:id="@+id/imageview_house7"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="38dp"
+                android:layout_marginLeft="38dp"
+                android:background="@mipmap/callphoto" />
+
+            <TextView
+                android:id="@+id/tv_place7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageview_house7"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="1dp"
+                android:layout_toEndOf="@+id/imageview_house7"
+                android:layout_toRightOf="@+id/imageview_house7"
+                android:textSize="19sp"
+                android:text="客服电话" />
+
+            <ImageView
+                android:id="@+id/imageView_right7"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignTop="@+id/imageview_house7"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@mipmap/right" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"></View>
+
+
+
+
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="75dp">-->
+            <!--<View-->
+                <!--android:layout_width="10dp"-->
+                <!--android:layout_height="match_parent" />-->
+            <!--<Button-->
+                <!--android:id="@+id/btn_fgpw"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="45dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@mipmap/login"-->
+                <!--android:textColor="#fff"-->
+
+                <!--android:text="退出登录" />-->
+            <!--<View-->
+                <!--android:layout_width="10dp"-->
+                <!--android:layout_height="match_parent" />-->
+
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

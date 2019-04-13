@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/myblack"
+            android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:background="#00000000">
+
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/btn_menu"-->
+                            <!--android:layout_width="35dp"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_alignParentBottom="true"-->
+                            <!--android:layout_alignParentRight="true"-->
+
+                            <!--android:text="+"-->
+                            <!--android:textSize="35sp" />-->
+
+
+
+                    <ImageView
+                        android:id="@+id/btn_menu"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+
+
+                        android:layout_marginRight="11dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@mipmap/homeadd" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="158dp"
+                        android:layout_marginLeft="158dp"
+                        android:layout_marginBottom="3dp"
+                        android:textSize="19sp"
+                        android:textColor="#fff"
+                        android:text="设备" />
+
+                    <!--<ImageView-->
+                            <!--android:id="@+id/question"-->
+                            <!--android:layout_width="30dp"-->
+                            <!--android:layout_height="30dp"-->
+                            <!--android:layout_alignParentLeft="true"-->
+                            <!--android:layout_alignParentBottom="true"-->
+                            <!--android:layout_marginLeft="10dp"-->
+                            <!--android:background="@mipmap/question" />-->
+
+
+                </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1.5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="#808080"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingTop="13dp"
+                        android:text="产所列表"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#55000000" />
+
+
+
+                <!--<com.andview.refreshview.XRefreshView xmlns:android="http://schemas.android.com/apk/res/android"-->
+                    <!--xmlns:xrefreshview="http://schemas.android.com/apk/res-auto"-->
+                    <!--xmlns:tools="http://schemas.android.com/tools"-->
+                    <!--android:id="@+id/custom_view"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="#fff"-->
+                    <!--android:orientation="vertical"-->
+                    <!--xrefreshview:isHeightMatchParent="true"-->
+                    <!--xrefreshview:isWidthMatchParent="true" >-->
+
+                    <!--<ListView-->
+                        <!--android:id="@+id/lv"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content" />-->
+
+                <!--</com.andview.refreshview.XRefreshView>-->
+
+
+
+
+
+                <!--<android.support.v7.widget.RecyclerView-->
+                    <!--android:id="@+id/recycler"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--/>-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   ></android.support.v7.widget.RecyclerView>
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="#ccc"></View>
+
+</LinearLayout>
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+                        <!--<com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView-->
+                            <!--android:id="@+id/rv_sideslip_delete"-->
+                            <!--android:background="#ffffff"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content">-->
+                        <!--</com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView>-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:orientation="vertical"
+                        android:background="#ffffff">
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="8dp"
+                           android:id="@+id/device_no1"
+                           android:textSize="15sp"
+                           android:singleLine="true"
+                                 android:maxEms="24"
+                        android:text="海智中心8栋。。。"
+                           android:textColor="#444"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="38dp"
+                            android:id="@+id/device_no"
+                            android:textColor="#444"
+                            android:paddingTop="5dp"
+                            android:textSize="14sp"
+
+                            android:text="烟感探测器 数量：0"/>
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+
+                        android:background="#55000000" />
+
+                        <!--<ListView-->
+                            <!--android:id="@+id/listView"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"/>-->
+
+
+                    <com.silence.commonframe.utils.SlideRecyclerView
+                        android:id="@+id/id_item_remove_recyclerview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                       />
+
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="95dp"
+                        android:layout_marginTop="115dp"
+                        android:layout_marginLeft="65dp"
+                        android:id="@+id/imageViewdevice"
+                        android:visibility="gone"
+                        android:background="@mipmap/equipmentlose"
+
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textdis"
+                        android:visibility="gone"
+                        android:layout_marginLeft="18dp"
+                        android:text="对不起该场所未添加任何的设备"/>
+                    <Button
+                        android:layout_width="85dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/btdevice"
+                        android:visibility="gone"
+                        android:background="@mipmap/login"
+                        android:layout_marginLeft="68dp"
+                        android:textColor="#fff"
+                        android:text="添加设备" />
+
+                </LinearLayout>
+            <!--android:visibility="gone"-->
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>

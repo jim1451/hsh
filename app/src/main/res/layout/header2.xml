@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <!--android:background="#4378fc"-->
+
+
+
+
+
+    <!--<ImageView-->
+
+        <!--android:layout_width="match_parent"-->
+
+        <!--android:layout_height="100dp"-->
+
+        <!--android:background="@mipmap/ic_launcher"/>-->
+    <LinearLayout
+
+        android:id="@+id/invis"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:background="#ccedc7"
+
+        android:orientation="vertical" >
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:background="#fff"
+            android:textColor="#000"
+            android:text="场所区域" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#ccc"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

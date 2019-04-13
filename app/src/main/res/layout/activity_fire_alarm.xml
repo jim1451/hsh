@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".activity.FireAlarmActivity">
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#fff"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textColor="#999999"-->
+    <!--android:textSize="18sp"-->
+    <!--android:text="添加联系人"/>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+    <!--<EditText-->
+    <!--android:id="@+id/et_name"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:theme="@style/MyEditText"-->
+    <!--android:ems="10"-->
+    <!--android:hint="姓名"-->
+    <!--android:inputType="textPersonName">-->
+
+    <!--<requestFocus />-->
+    <!--</EditText>-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/et_phone"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:theme="@style/MyEditText"-->
+    <!--android:ems="10"-->
+    <!--android:hint="号码"-->
+    <!--android:inputType="phone" />-->
+
+
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<ImageView-->
+    <!--android:layout_width="45dp"-->
+    <!--android:layout_height="59dp"-->
+    <!--android:background="@mipmap/linkman"/>-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal"-->
+    <!--&gt;-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_cancel"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:textColor="#000"-->
+    <!--android:text="撤销"-->
+    <!--android:textSize="16sp" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_submit"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_marginLeft="145dp"-->
+    <!--android:textColor="#000"-->
+    <!--android:text="提交"-->
+
+    <!--android:textSize="16sp" />-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="215dp"
+        android:layout_height="205dp"
+
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="255dp"
+            android:layout_height="25dp"
+
+            android:text="        尊敬的用户，你的设备发生"
+            android:textSize="14sp"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="255dp"
+            android:layout_height="25dp"
+            android:textSize="14sp"
+            android:text="              敬情请及时处理"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="发生时间：2019-4-01"
+            android:textColor="#000" />
+
+
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView1"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView2"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="详细地址：杭州市余杭区"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="#fff"
+            android:layout_gravity="center"
+          android:layout_marginTop="35dp"
+            android:text="知道了"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

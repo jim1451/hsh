@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<com.youth.banner.Banner xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/convenientBanner"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    app:is_auto_play="true"/>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+
+   <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#00000000">
+
+
+        <TextView
+            android:id="@+id/btn_menu"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+
+            android:text="+"
+            android:textSize="35sp" />
+
+
+    </RelativeLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@mipmap/mainblack"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+
+            android:background="@mipmap/normal" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="区域产所"/>
+</LinearLayout>

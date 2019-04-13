@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UserAgreementActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="63dp"-->
+        <!--android:background="#000"-->
+        <!--android:gravity="bottom">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView4"-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_marginBottom="6dp"-->
+            <!--android:background="@mipmap/black"-->
+            <!--android:onClick="myclick" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView15"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="6dp"-->
+            <!--android:text="返回"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="19sp" />-->
+
+        <!--<View-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"></View>-->
+        <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/textView3"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="0.9"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginBottom="6dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="场所列表"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="#fff"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="19sp" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<View&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"></View>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/imageView_daohang"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="35dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="31dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginBottom="9dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:srcCompat="@mipmap/daohang" />&ndash;&gt;-->
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="bottom"
+        android:background="#444">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="6dp"
+            android:background="@mipmap/whiteback"
+            android:onClick="myclick" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:text="返回" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"></View>
+        <!--android:layout_gravity="center"-->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:layout_marginBottom="6dp"
+            android:text="用户协议"
+            android:textColor="#fff"
+            android:textSize="19sp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"></View>
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView_daohang"-->
+        <!--android:layout_width="35dp"-->
+        <!--android:layout_height="31dp"-->
+        <!--android:layout_marginBottom="9dp"-->
+        <!--app:srcCompat="@mipmap/daohang" />-->
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

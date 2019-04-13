@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<com.handmark.pulltorefresh.library.PullToRefreshListView-->
+        <!--android:id="@+id/listview"-->
+
+        <!--android:divider="#00000000"-->
+        <!--android:dividerHeight="0dp"-->
+
+
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"></com.handmark.pulltorefresh.library.PullToRefreshListView>-->
+    <!--<include-->
+        <!--android:id="@+id/listview_headerview2"-->
+        <!--layout="@layout/listview_headerview2"></include>-->
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="fill_parent" >
+
+
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+
+           <!-- android:divider="#00000000"
+            android:dividerHeight="0dp"-->
+
+
+            <com.handmark.pulltorefresh.library.PullToRefreshListView
+
+                android:id="@+id/refreshListView"
+
+                android:layout_width="match_parent"
+
+
+
+                android:layout_height="match_parent" />
+
+
+
+            <LinearLayout
+
+                android:id="@+id/invis"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="50dp"
+
+                android:background="#fff"
+
+                android:orientation="horizontal"
+
+                android:visibility="gone" >
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="50dp"
+
+                    android:gravity="center"
+
+                    android:text="场所区域" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+    </RelativeLayout>
+</LinearLayout>

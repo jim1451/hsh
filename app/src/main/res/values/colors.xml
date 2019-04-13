@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="main_color">#fa72d6</color>  //#db0f0c   #f16464
+    <color name="pure_white">#fcfbfb</color>
+
+    <!-- 标题栏返回按钮的背景颜色 -->
+    <color name="button_backward_pressed">#ff2f2d34</color>
+    <color name="button_backward_normal">#00000000</color>
+    <color name="bg_top_divider">#37373d</color>
+
+    <!-- 程序主色调 -->
+    <color name="background">#f2f2f2</color>
+    <color name="gray">#808080</color>
+    <color name="light_white">#fcfcfc</color>
+    <color name="bg_top_bar">#393a3f</color>
+    <color name="myblue">#4e69ff</color>
+    <color name="myblack">#444</color>
+    <color name="mywhite">#FCFCFC</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="text_black">#666666</color><!--正式发布时改成666666-->
+    <color name="colorPrimaryDarkTrans">#CCf57257</color>
+    <color name="test_spacing2">#179641</color>
+    <color name="test_touming">#00000000</color>
+    <color name="test_touming1">#5592F6</color>
+    <color name="test_touming2">#F5595B</color>
+    <color name="test_touming3">#8D3FDC</color>
+    <color name="scan_bg">#7f000000</color>
+
+
+
+    <color name="white">#ffffff</color>
+    <color name="line">#e2e2e2</color>
+    <color name="hint">#d8d8d8</color>
+    <color name="font_dark_2">#1D1D1D</color>
+
+    <color name="font_value">#ff888888</color>
+    <color name="font_dark">#ff6E6E6E</color>
+
+
+    <color name="blue">#6666ff</color>
+    <!--<color name="white">#fff</color>-->
+    <color name="bar_grey">#393a3e</color>
+
+    <color name="colorGray">#33000000</color>
+</resources>
